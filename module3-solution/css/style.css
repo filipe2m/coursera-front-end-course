@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -56,17 +62,18 @@ body {
 
 #main-content {
   margin-left: 10px;
-  margin-right: 10px;
-  color: #000;
 }
 
 #main-content h2 {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 #main-content div.row div {
+  padding: 15px 10px 5px 10px;
+}
+
+#main-content .content {
   background-color: #999;
-  margin-bottom: 30px;
 }
 
 #main-content div h4 {
@@ -83,14 +90,6 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  #main-content {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  #main-content div.row div {
-    padding-left: 100px;
-  }
   #main-content p {
     padding: 0 15px 0 15px;
   }
@@ -100,10 +99,6 @@ body {
 @media (max-width: 767px) {
   #collapsable-nav {
     background-color: #dddddd;
-  }
-  #main-content {
-    margin-left: 10%;
-    margin-right: 10%;
   }
   #main-content p {
     padding: 0 15px 0 15px;
