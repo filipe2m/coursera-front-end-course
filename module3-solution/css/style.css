@@ -9,7 +9,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/** HEADER **/
 #header-nav {
   background-color: #999;
   border-radius: 0;
@@ -20,6 +19,7 @@ body {
   padding-top: 25px;
   height: 80px;
 }
+
 .navbar-brand h1 {
   color: #000;
   font-weight: bold;
@@ -27,6 +27,7 @@ body {
   margin-bottom: 0;
   line-height: 0.75;
 }
+
 .navbar-brand a:hover,
 .navbar-brand a:focus {
   text-decoration: none;
@@ -41,12 +42,15 @@ body {
   text-align: center;
   font-weight: bold;
 }
+
 #nav-list li {
   border-bottom: 1px solid #000;
 }
+
 #nav-list a:hover {
   background: #e7e7e7;
 }
+
 #nav-list a span {
   font-size: 1.8em;
 }
@@ -55,6 +59,7 @@ body {
 .navbar-header .icon-bar {
   border: 1px solid #000;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -60px;
@@ -78,14 +83,6 @@ body {
 
 #main-content div h4 {
   font-weight: bold;
-}
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
 }
 
 /********** Small devices only **********/
